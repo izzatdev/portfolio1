@@ -5,7 +5,8 @@ body{
     min-height: 100%;
     max-width: 100%;
     min-width: 100%;
-    box-sizing: border-box"    
+    box-sizing: border-box"  
+    font-family:sans-serif;
 }
 .home{
     width: 100%;
