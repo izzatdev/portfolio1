@@ -280,3 +280,76 @@ body{
     letter-spacing: 1px;
     text-decoration: none;
 }
+.problems{
+    height: 1240px;
+    width: 1080px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.problems h1{
+    width: 492px;
+    height: 120px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 140%;
+    color: #050C26;
+}
+.problems p{
+    width: 604px;
+    height: 87px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+     color: #575859;
+}
+.problemcards{
+    width: 100%;
+    height: 900px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.boxout{
+    width: 30%;
+    height: 360px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(104px);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxin{
+    width:77.7%;
+    height: 300px;
+    background: #F3F3F3;
+    border-radius: 10px;
+    text-align: center;
+}
+.boxin h1{
+    width: 241px;
+    height: 38px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    color: #050C26;
+}
+.boxin p{
+    width: 241px;
+    height: 52px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #575859;
+}
