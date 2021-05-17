@@ -353,3 +353,214 @@ body{
     line-height: 160%;
     color: #575859;
 }
+.pricing{
+    width: 1080px;
+    margin: 0 auto;
+    height: 870px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.pricing h1{
+    height: 49px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 140%;
+    text-align: center;
+    color: #050C26;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+.pricing h3{
+    height: 32px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #575859;
+    text-transform: uppercase;
+}
+.billing{
+    width: 353px;
+    height: 69px;
+    border: 1px solid #1B45DA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.billingtype{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 49px;
+    border-radius: 5px;
+    padding: 0;
+}
+.billingtype a{
+    width: 150px;
+    height: 29px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    color: #575859;
+    text-decoration: none;
+    transition: 0.3s 0s  linear all;
+}
+.billingtype:hover{
+    background-color: #3988FF;
+    color: #ffffff;
+}
+.billingtype a:hover{
+    color: #ffffff;
+}
+.pricingboxes{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin:2rem 0 0 0;
+}
+.pricingbox{
+    width: 340px;
+    height: 610px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.pricingbox:hover{
+    box-shadow: 0 0 10px 7px rgba(0,0,0,0.2) ;
+}
+.pricingboxhead{
+    box-sizing: border-box;
+    width: 100%;
+    height: 129px;
+    background:transparent;
+    box-shadow: 0 1px 0 rgba(153, 153, 153, 0.14);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricingbox h1{
+    width: 99px;
+    height: 38px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #050C26;
+    text-transform: none;
+}
+.pricingbox h2{
+    height: 49px;
+    font-size: 35px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-align: center;
+    color: #050C26;
+}
+.pricingbox sub{
+    width: 12px;
+    height: 29px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #050C26;
+}
+.pricingbox span{
+    width: 115px;
+    height: 29px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #575859;
+}
+#box2{
+    background: linear-gradient(180deg, #D9315A 0%, #F3678A 100%);
+    color: white;
+}
+#box2 span, #box2 h2,#box2 h2 sub,#box2 .pricingboxhead h1{
+    color: white;
+}
+.purchase{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 161px;
+    height: 68px;
+    border: 1px solid #3988FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin:3rem auto ;
+}
+.purchase a{
+    width: 101px;
+    height: 38px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    color: #3988FF;
+    text-decoration: none;
+}
+#box2 .purchase a{
+    color: white;
+}
+#box2 .purchase{
+    background-color: #3988FF;
+}
+.romb{
+    position: absolute;
+    width: 75px;
+    height: 22px;
+    background: #11BB92;
+    transform: rotate(-45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 8px;
+    left: -18px;
+}
+.romb p{
+    width: 42px;
+    height: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 160%;
+    color: #050C26;
+}
+#box2 .pricingboxhead{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(180deg, #D95374 0%, #D32852 100%);
+}
+
