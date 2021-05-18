@@ -353,6 +353,21 @@ body{
     line-height: 160%;
     color: #575859;
 }
+.boxincircle{
+    border-radius: 50%;
+    width:60px;
+    height: 60px;
+    background-color: white;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxincircle img{
+    width: 70%;
+    height: 70%;
+}
+
 .pricing{
     width: 1080px;
     margin: 0 auto;
